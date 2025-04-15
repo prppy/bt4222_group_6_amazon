@@ -35,13 +35,11 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 - Filtered users with at least five purchases over the past four years to create a high-quality dataset for modeling purchase intent.
 
 ### Step 4: Customer Segmentation
-- Performed K-Means clustering on engineered user features.
-- Identified four distinct user personas:
-  1. **Steady and Satisfied**
-  2. **Critical and Disengaged**
-  3. **High-Value Power Buyers**
-  4. **Casual Optimists**
-- Incorporated clusters into downstream modeling to personalize recommendations.
+- Key features are selected from feature-engineered customer dataset containing behavioral and sentiment attributes and standardized to prepare for clustering
+- PCA is applied to reduce dimensionality and improve both clustering performance and visualization
+- The elbow method determines the optimal number of clusters (k = 4), followed by K-Means clustering
+- Each cluster is profiled using summary statistics and visualizations to reveal distinct customer behavior patterns
+- Insights are used to inform personalized top-k recommendation strategies, aligning suggestions with user segment characteristics
 
 ### Step 5: Model Development
 
