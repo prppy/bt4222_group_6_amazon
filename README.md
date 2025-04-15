@@ -9,7 +9,7 @@ Using over 4 million reviews enriched with metadata like ratings, categories, an
 By aligning model outputs with key business goals—like increasing conversion rates and user satisfaction—this project offers practical insights for optimizing Amazon's recommendation strategy.
 ---
 
-## 🛠️ Project Pipeline
+## Project Pipeline
 
 This project is organized into clearly structured notebooks (`step0` to `step8`) representing each major development stage:
 
