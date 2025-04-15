@@ -25,9 +25,9 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 - Missing values in essential fields are removed or filled with defaults, and review dates are standardized.
 
 ### Step 2: Exploratory Data Analysis (EDA)
-- Analyzed user and item activity distribution.
-- Identified sparsity patterns and purchasing behavior trends.
-- Visualized category distribution and temporal spikes.
+- Analyzed user and product activity distribution.
+- Visualize the distribution of numerical features using histograms and box plots.
+- Identify potential outliers and patterns in the data to guide feature engineering.
 
 ### Step 3: Feature Engineering
 - Engineered features across user behavior, product attributes, and sentiment to capture preferences and engagement quality.
