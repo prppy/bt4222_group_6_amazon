@@ -62,11 +62,7 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 - Explored sequence modeling via LSTM for capturing user temporal purchase history.
 - Compared performance against simpler NCF architectures.
 
-### Step 7: Regression Analysis for Ensemble
-- Performed regression on predictions from multiple NCF variants.
-- Calculated optimal weights for ensemble recommendations per user segment.
-
-### Step 8: Evaluation
+### Step 7: Evaluation
 - Evaluated models on both validation and test datasets using metrics:
   - **RMSE / MSE**
   - **Precision@10 / Recall@10 / F1@10**
