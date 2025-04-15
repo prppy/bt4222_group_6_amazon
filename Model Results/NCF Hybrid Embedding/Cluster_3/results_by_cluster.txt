@@ -26,3 +26,27 @@ ndcg@10: 0.9855
 precision@10: 0.9334
 recall@10: 0.9645
 f1@10: 0.9438
+
+===== Final Test Metrics =====
+mse: 1.4885
+rmse: 1.2200
+ndcg@10: 0.9854
+precision@10: 0.9334
+recall@10: 0.9645
+f1@10: 0.9438
+
+===== Final Test Metrics =====
+mse: 0.7950
+rmse: 0.8916
+ndcg@10: 0.9858
+precision@10: 0.9334
+recall@10: 0.9645
+f1@10: 0.9438
+
+===== Final Test Metrics =====
+mse: 0.7672
+rmse: 0.8759
+ndcg@10: 0.9868
+precision@10: 0.9334
+recall@10: 0.9645
+f1@10: 0.9438

@@ -1,5 +1,5 @@
 ====== Validation Metrics For Full Dataset with Custom Embeddings ======
-Best Config: {'embedding_dim': 6, 'learning_rate': 0.001, 'batch_size': 128, 'dropout_rate': 0.0, 'num_epochs': 20}
-MSE: 0.8928, RMSE: 0.9448, NDCG@10: 0.9964, Precision@10: 0.8674, Recall@10: 0.8769, F1@10: 0.8705876769228104
+Best Config: {'embedding_dim': 6, 'learning_rate': 0.001, 'batch_size': 512, 'dropout_rate': 0.3, 'num_epochs': 40}
+MSE: 0.8965, RMSE: 0.9464, NDCG@10: 0.9962, Precision@10: 0.8674, Recall@10: 0.8769, F1@10: 0.8705876769228104
 ====== Test Metrics After Final Retraining ======
-MSE: 1.8600, RMSE: 1.1922, NDCG@10: 0.9716, Precision@10: 0.8597, Recall@10: 0.9344, F1@10: 0.8849535203780803
+MSE: 1.2900, RMSE: 1.1158, NDCG@10: 0.9718, Precision@10: 0.8597, Recall@10: 0.9344, F1@10: 0.8849535203780803

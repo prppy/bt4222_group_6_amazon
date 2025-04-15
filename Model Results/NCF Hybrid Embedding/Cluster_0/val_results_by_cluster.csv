@@ -1,2 +1,2 @@
-mse,rmse,ndcg@10,precision@10,recall@10,f1@10,custom_embedding_dim,random_embedding_dim,custom_dropout_rate,random_dropout_rate,custom_learning_rate,random_learning_rate,fc_dropout_rate,fc_learning_rate,batch_size,num_epochs
-0.77574956,0.88076645,0.9971218749566785,0.8886216619671587,0.8968319787692818,0.8913584342345331,5,8,0.3,0.0,0.001,0.001,0.3,0.001,512,40
+cluster_id,mse,rmse,ndcg@10,precision@10,recall@10,f1@10,custom_embedding_dim,random_embedding_dim,custom_dropout_rate,random_dropout_rate,custom_learning_rate,random_learning_rate,fc_dropout_rate,fc_learning_rate,batch_size,num_epochs
+0,0.77574956,0.88076645,0.9971218749566784,0.8886216619671587,0.8968319787692818,0.8913584342345331,5,8,0.3,0.0,0.001,0.001,0.3,0.001,512,40
