@@ -1,4 +1,4 @@
-# Home Goods Product Recommendation System: Amazon US Customer Reviews Dataset
+y# Home Goods Product Recommendation System: Amazon US Customer Reviews Dataset
 
 ## Project Overview
 
@@ -54,6 +54,9 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 
 #### 5.3 NCF with Negative Sampling
 - Improved learning by generating negative examples from unpurchased items per user.
+
+#### 5.4 Hybrid NCF Model (Custom + Random Embeddings)
+- Combine custom and random embeddings to enhance model accuracy by leveraging both domain-specific features and random initialization.
 
 ### Step 6: Temporal Modeling with LSTM
 - Explored sequence modeling via LSTM for capturing user temporal purchase history.
