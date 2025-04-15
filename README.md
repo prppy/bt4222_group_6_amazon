@@ -29,7 +29,7 @@ This structure is important to ensure all Colab notebooks can correctly access d
 
 ## Project Pipeline
 
-This project is organized into clearly structured notebooks (`step0` to `step8`) representing each major development stage:
+This project is organized into clearly structured notebooks (`step0` to `step7`) representing each major development stage:
 
 ### Step 0: Data Downloading
 - Set up directory structure in Google Drive and configure the Kaggle API.
