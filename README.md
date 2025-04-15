@@ -1,4 +1,4 @@
-y# Home Goods Product Recommendation System: Amazon US Customer Reviews Dataset
+# Home Goods Product Recommendation System: Amazon US Customer Reviews Dataset
 
 ## Project Overview
 
@@ -58,15 +58,21 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 #### 5.4 Hybrid NCF Model (Custom + Random Embeddings)
 - Combine custom and random embeddings to enhance model accuracy by leveraging both domain-specific features and random initialization.
 
+#### 5.5 Analysis of Validation and Test Datasets
+- Analyse the distribution of customer interactions in the validation and test datasets by cluster and  and evaluate the sparsity of customer activity.
+
 ### Step 6: Temporal Modeling with LSTM
 - Explored sequence modeling via LSTM for capturing user temporal purchase history.
 - Compared performance against simpler NCF architectures.
 
 ### Step 7: Evaluation
 - Evaluated models on both validation and test datasets using metrics:
-  - **RMSE / MSE**
-  - **Precision@10 / Recall@10 / F1@10**
+  - **RMSE**
+  - **MSE**
   - **NDCG@10**
+  - **Precision@10**
+  - **Recall@10**
+  - **F1@10**
 - Exported results to CSV for visualization and reporting.
 
 ---
