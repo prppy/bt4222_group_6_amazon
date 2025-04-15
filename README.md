@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-Amazon US relies heavily on intelligent recommendation systems to boost user engagement and drive conversions. This project focuses on predicting whether users will purchase home goods in four categories—Electronics, Furniture, Major Appliances, and Personal Care Appliances—based on customer interactions in the Amazon US Customer Reviews Dataset.
+Amazon US relies heavily on intelligent recommendation systems to enhance user experience, increase product visibility, and drive conversions. (Smith & Linden, 2017) In this project, we focus on building a personalized recommendation pipeline that predicts the likelihood of a user purchasing home goods across four key product categories: Electronics, Furniture, Major Appliances, and Personal Care Appliances. The analysis is grounded in the Amazon US Customer Reviews Dataset, a large-scale, publicly available dataset widely used for benchmarking in recommendation system research (McAuley et al., 2015)
 
-Using over 4 million reviews enriched with metadata like ratings, categories, and review text, we extract behavioral and engagement features to train personalized recommendation models. Our pipeline includes Neural Collaborative Filtering, deep learning models, and advanced feature engineering (e.g., sentiment analysis, text embeddings), all aimed at improving prediction accuracy and personalization.
+The dataset consists of over 4 million verified reviews, enriched with metadata including star ratings, product categories, timestamps, and textual review content. To enable personalized predictions, we extract a diverse set of user behavior and engagement features, including purchasing frequency, review sentiment, helpfulness ratios, and category diversity. Additionally, we incorporate text-based signals through sentiment analysis and embedding techniques to capture the semantic richness of user-generated content which is an approach shown to significantly enhance recommendation quality (Dang et al., 2021)
 
-By aligning model outputs with key business goals—like increasing conversion rates and user satisfaction—this project offers practical insights for optimizing Amazon's recommendation strategy.
+Our modeling pipeline includes both traditional collaborative filtering methods and more advanced approaches such as Neural Collaborative Filtering (NCF), a deep learning-based architecture that captures non-linear user-item interactions more effectively than matrix factorization alone. We further enhance model performance through advanced feature engineering, combining structured behavioral data with unstructured text to provide a richer representation of users and products. This hybrid architecture aims to improve both prediction accuracy and personalization quality, enabling more relevant top-k item recommendations aligned with individual user preferences.
 
 ---
 
@@ -94,3 +94,6 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 - Yuan Tianyi
 
 ## References
+- Dang, C. N., Moreno-García, M. N., & De La Prieta, F. (2021). An Approach to Integrating Sentiment Analysis into Recommender Systems. Sensors, 21(16), 5666. https://doi.org/10.3390/s21165666
+- McAuley, J., Pandey, R., & Leskovec, J. (2015). Inferring networks of substitutable and complementary products. Inferring Networks of Substitutable and Complementary Products. https://doi.org/10.1145/2783258.2783381
+- Smith, B., & Linden, G. (2017). Two decades of recommender systems at Amazon.com. IEEE Internet Computing, 21(3), 12–18. https://doi.org/10.1109/mic.2017.72
