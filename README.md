@@ -6,7 +6,11 @@ Amazon US relies heavily on intelligent recommendation systems to enhance user e
 
 The dataset consists of over 4 million verified reviews, enriched with metadata including star ratings, product categories, timestamps, and textual review content. To enable personalized predictions, we extract a diverse set of user behavior and engagement features, including purchasing frequency, review sentiment, helpfulness ratios, and category diversity. Additionally, we incorporate text-based signals through sentiment analysis and embedding techniques to capture the semantic richness of user-generated content which is an approach shown to significantly enhance recommendation quality (Dang et al., 2021)
 
-Our modeling pipeline includes both traditional collaborative filtering methods and more advanced approaches such as Neural Collaborative Filtering (NCF), a deep learning-based architecture that captures non-linear user-item interactions more effectively than matrix factorization alone. We further enhance model performance through advanced feature engineering, combining structured behavioral data with unstructured text to provide a richer representation of users and products. This hybrid architecture aims to improve both prediction accuracy and personalization quality, enabling more relevant top-k item recommendations aligned with individual user preferences.
+To power personalized recommendations on Amazon US, we use a hybrid modeling pipeline. At the core of our approach is a Hybrid Neural Collaborative Filtering (NCF) model, which combines two pathways: one with custom embeddings built from user behavior and preferences, and another with random embeddings that are learned during training. Each pathway includes both a GMF (Generalized Matrix Factorization) component to capture straightforward interactions and a MLP (Multi-Layer Perceptron) to learn deeper, more complex relationships between users and products.
+
+To reduce model complexity, we also implement Neural Collaborative Filtering (NCF) with negative sampling. Instead of learning from every possible user-item pair, the model focuses on a smaller set of observed positive interactions and strategically sampled negatives. This  enhances the model's ability to distinguish user preferences, leading to more relevant top-k recommendations from implicit feedback.
+
+In addition, we include a Long Short-Term Memory (LSTM) component to model the sequence of user purchases over time. This is especially helpful for capturing shopping patterns and predicting what a user might need next.
 
 ---
 ## Getting Started
@@ -25,7 +29,7 @@ This structure is important to ensure all Colab notebooks can correctly access d
 
 ## Project Pipeline
 
-This project is organized into clearly structured notebooks (`step0` to `step8`) representing each major development stage:
+This project is organized into clearly structured notebooks (`step0` to `step7`) representing each major development stage:
 
 ### Step 0: Data Downloading
 - Set up directory structure in Google Drive and configure the Kaggle API.
@@ -55,7 +59,7 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 - Each cluster is profiled using summary statistics and visualizations to reveal distinct customer behavior patterns
 - Insights are used to inform personalized top-k recommendation strategies, aligning suggestions with user segment characteristics
 
-### Step 5: Model Development
+### Step 5: NCF Model Development
 
 #### 5.1 NCF with Custom Embeddings
 - Built a neural collaborative filtering model with user and item embeddings.
