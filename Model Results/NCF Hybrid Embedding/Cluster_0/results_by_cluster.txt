@@ -1,0 +1,36 @@
+===== Best Config and Validation Metrics =====
+Cluster: 0
+custom_embedding_dim: 5
+random_embedding_dim: 8
+custom_dropout_rate: 0.3
+random_dropout_rate: 0.0
+custom_learning_rate: 0.001
+random_learning_rate: 0.001
+fc_dropout_rate: 0.3
+fc_learning_rate: 0.001
+batch_size: 512
+num_epochs: 40
+
+Validation Metrics:
+mse: 0.7757
+rmse: 0.8808
+ndcg@10: 0.9971
+precision@10: 0.8886
+recall@10: 0.8968
+f1@10: 0.8914
+
+===== Final Test Metrics =====
+mse: 1.0699
+rmse: 1.0344
+ndcg@10: 0.9726
+precision@10: 0.8851
+recall@10: 0.9549
+f1@10: 0.9087
+
+===== Final Test Metrics =====
+mse: 1.0311
+rmse: 1.0154
+ndcg@10: 0.9739
+precision@10: 0.8851
+recall@10: 0.9549
+f1@10: 0.9087

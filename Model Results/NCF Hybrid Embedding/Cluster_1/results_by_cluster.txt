@@ -1,0 +1,28 @@
+===== Best Config and Validation Metrics =====
+Cluster: 1
+custom_embedding_dim: 5
+random_embedding_dim: 5
+custom_dropout_rate: 0.0
+random_dropout_rate: 0.0
+custom_learning_rate: 0.001
+random_learning_rate: 0.001
+fc_dropout_rate: 0.3
+fc_learning_rate: 0.001
+batch_size: 128
+num_epochs: 40
+
+Validation Metrics:
+mse: 2.0914
+rmse: 1.4462
+ndcg@10: 1.0000
+precision@10: 0.6422
+recall@10: 0.6422
+f1@10: 0.6422
+
+===== Final Test Metrics =====
+mse: 3.0919
+rmse: 1.7584
+ndcg@10: 0.9738
+precision@10: 0.6171
+recall@10: 0.7000
+f1@10: 0.6447

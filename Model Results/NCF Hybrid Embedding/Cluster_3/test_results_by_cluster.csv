@@ -1,0 +1,2 @@
+mse,rmse,ndcg@10,precision@10,recall@10,f1@10,custom_embedding_dim,random_embedding_dim,custom_dropout_rate,random_dropout_rate,custom_learning_rate,random_learning_rate,fc_dropout_rate,fc_learning_rate,batch_size,num_epochs
+0.5215827,0.72220683,1.0,0.9339485186983972,0.9339485186983972,0.9339485186983972,6.0,5.0,0.0,0.0,0.001,0.001,0.0,0.001,128.0,20.0

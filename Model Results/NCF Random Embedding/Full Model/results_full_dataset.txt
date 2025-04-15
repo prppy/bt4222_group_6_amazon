@@ -1,0 +1,4 @@
+======Validation Metrics For Full Dataset======
+MSE: 0.9756, RMSE: 0.9890, NDCG@10: 0.9957900821234901, Precision@10: 0.8673749758242734, Recall@10: 0.87688927358679, F1@10: 0.8705876769228104
+===== Test Results For Full Dataset======
+Full Dataset Test:  MSE: 1.1621, RMSE: 1.0786, NDCG@10: 0.9718, Precision@10: 0.8597, Recall@10: 0.9344, F1@10: 0.8849569106924269
