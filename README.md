@@ -59,7 +59,7 @@ This project is organized into clearly structured notebooks (`step0` to `step7`)
 - Each cluster is profiled using summary statistics and visualizations to reveal distinct customer behavior patterns
 - Insights are used to inform personalized top-k recommendation strategies, aligning suggestions with user segment characteristics
 
-### Step 5: Model Development
+### Step 5: NCF Model Development
 
 #### 5.1 NCF with Custom Embeddings
 - Built a neural collaborative filtering model with user and item embeddings.
