@@ -9,6 +9,19 @@ The dataset consists of over 4 million verified reviews, enriched with metadata 
 Our modeling pipeline includes both traditional collaborative filtering methods and more advanced approaches such as Neural Collaborative Filtering (NCF), a deep learning-based architecture that captures non-linear user-item interactions more effectively than matrix factorization alone. We further enhance model performance through advanced feature engineering, combining structured behavioral data with unstructured text to provide a richer representation of users and products. This hybrid architecture aims to improve both prediction accuracy and personalization quality, enabling more relevant top-k item recommendations aligned with individual user preferences.
 
 ---
+## Getting Started
+
+1. **Create a folder** named `bt4222_group_6` in the root of your Google Drive (i.e., inside `My Drive`).
+2. **Download and upload this repository** into that folder.
+
+After this, your folder structure should look like this: <br>
+- MyDrive/
+  - bt4222_group_6/
+    - bt4222_group_6_amazon/
+
+This structure is important to ensure all Colab notebooks can correctly access data and modules via relative paths.
+
+---
 
 ## Project Pipeline
 
