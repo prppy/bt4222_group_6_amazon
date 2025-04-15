@@ -30,9 +30,9 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 - Visualized category distribution and temporal spikes.
 
 ### Step 3: Feature Engineering
-- Created features such as user purchase frequency, time-of-day tendencies, and product category affinity.
-- Engineered derived fields from timestamps and review metadata.
-- Prepared input features for both segmentation and collaborative filtering models.
+- Engineered features across user behavior, product attributes, and sentiment to capture preferences and engagement quality.
+- Applied clustering, matrix factorization, and aggregation to understand user-product interactions and product appeal.
+- Filtered users with at least five purchases over the past four years to create a high-quality dataset for modeling purchase intent.
 
 ### Step 4: Customer Segmentation
 - Performed K-Means clustering on engineered user features.
