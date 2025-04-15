@@ -8,7 +8,7 @@ The dataset consists of over 4 million verified reviews, enriched with metadata 
 
 To power personalized recommendations on Amazon US, we use a hybrid modeling pipeline. At the core of our approach is a Hybrid Neural Collaborative Filtering (NCF) model, which combines two pathways: one with custom embeddings built from user behavior and preferences, and another with random embeddings that are learned during training. Each pathway includes both a GMF (Generalized Matrix Factorization) component to capture straightforward interactions and a MLP (Multi-Layer Perceptron) to learn deeper, more complex relationships between users and products.
 
-To further personalize results, we train a separate NCF model for each of the four customer segments identified during clustering. This allows each model to focus on a specific user group, making recommendations more tailored and effective.
+To reduce model complexity, we also implement Neural Collaborative Filtering (NCF) with negative sampling. Instead of learning from every possible user-item pair, the model focuses on a smaller set of observed positive interactions and strategically sampled negatives. This  enhances the model's ability to distinguish user preferences, leading to more relevant top-k recommendations from implicit feedback.
 
 In addition, we include a Long Short-Term Memory (LSTM) component to model the sequence of user purchases over time. This is especially helpful for capturing shopping patterns and predicting what a user might need next.
 
