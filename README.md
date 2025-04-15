@@ -1,6 +1,6 @@
 # Home Goods Product Recommendation System: Amazon US Customer Reviews Dataset
 
-## 📄 Project Overview
+## Project Overview
 
 Amazon US relies heavily on intelligent recommendation systems to boost user engagement and drive conversions. This project focuses on predicting whether users will purchase home goods in four categories—Electronics, Furniture, Major Appliances, and Personal Care Appliances—based on customer interactions in the Amazon US Customer Reviews Dataset.
 
@@ -72,5 +72,5 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
