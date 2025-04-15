@@ -82,7 +82,7 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 ### /notebooks
 - Contains all project source codes used.
 
-### Model Results
+### /Model\ Results
 - Contains all Testing and Validation outputs from every model.
 
 ## Contributors
