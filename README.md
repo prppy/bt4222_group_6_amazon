@@ -7,6 +7,7 @@ Amazon US relies heavily on intelligent recommendation systems to boost user eng
 Using over 4 million reviews enriched with metadata like ratings, categories, and review text, we extract behavioral and engagement features to train personalized recommendation models. Our pipeline includes Neural Collaborative Filtering, deep learning models, and advanced feature engineering (e.g., sentiment analysis, text embeddings), all aimed at improving prediction accuracy and personalization.
 
 By aligning model outputs with key business goals—like increasing conversion rates and user satisfaction—this project offers practical insights for optimizing Amazon's recommendation strategy.
+
 ---
 
 ## Project Pipeline
