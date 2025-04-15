@@ -74,23 +74,16 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 ---
 
 ## Folder Structure
-### data
-- `electronics.csv` *(Not available directly from the repository due to GitHub's file size limits. Please refer to this link: [Google Drive](https://drive.google.com/drive/folders/1pm8sn0FKTTkVw4NY_XIf4NNalzM51Iik?usp=sharing))*
-- `furniture.csv` *(Not available directly from the repository due to GitHub's file size limits. Please refer to this link: [Google Drive](https://drive.google.com/drive/folders/1pm8sn0FKTTkVw4NY_XIf4NNalzM51Iik?usp=sharing))*
-- `major_appliance.csv`
-- `personal_care_appliances.csv`
-- `merged_reviews.csv` *(Not available directly from the repository due to GitHub's file size limits. Please refer to this link: [Google Drive](https://drive.google.com/drive/folders/1pm8sn0FKTTkVw4NY_XIf4NNalzM51Iik?usp=sharing))*
-- `filtered_reviews_with_features.csv`- `filtered_reviews_with_features.csv`
-- `filtered_reviews_with_features_and_clusters.csv`
-- `train_data.csv`
-- `test_data.csv`
-- `val_data.csv`
-
-### notebooks
+### /data
+- Contains all raw and intermediate csv files.
+- Note that `electronics.csv`, `furniture.csv` and `merged_reviews.csv` are *(not available directly from the repository due to GitHub's file size limits. Please refer to this link: [Google Drive](https://drive.google.com/drive/folders/1pm8sn0FKTTkVw4NY_XIf4NNalzM51Iik?usp=sharing))*
 
 
-# Model Results
+### /notebooks
+- Contains all project source codes used.
 
+### Model Results
+- Contains all Testing and Validation outputs from every model.
 
 ## Contributors
 - Huin Hao Ze
