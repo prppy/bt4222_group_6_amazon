@@ -77,3 +77,12 @@ This project is organized into clearly structured notebooks (`step0` to `step8`)
 
 ## Folder Structure
 
+
+## Contributors
+- Huin Hao Ze
+- Kenneth Jeremy Prajogo
+- Ng Xian Rui
+- Parama Roy Poja
+- Yuan Tianyi
+
+## References
