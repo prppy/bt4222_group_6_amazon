@@ -112,5 +112,5 @@ This project is organized into clearly structured notebooks (`step0` to `step7`)
 
 ## References
 - Dang, C. N., Moreno-García, M. N., & De La Prieta, F. (2021). An Approach to Integrating Sentiment Analysis into Recommender Systems. Sensors, 21(16), 5666. https://doi.org/10.3390/s21165666
-- McAuley, J., Pandey, R., & Leskovec, J. (2015). Inferring networks of substitutable and complementary products. Inferring Networks of Substitutable and Complementary Products. https://doi.org/10.1145/2783258.2783381
+- McAuley, J., Pandey, R., & Leskovec, J. (2015). Inferring networks of substitutable and complementary products.https://doi.org/10.1145/2783258.2783381
 - Smith, B., & Linden, G. (2017). Two decades of recommender systems at Amazon.com. IEEE Internet Computing, 21(3), 12–18. https://doi.org/10.1109/mic.2017.72
